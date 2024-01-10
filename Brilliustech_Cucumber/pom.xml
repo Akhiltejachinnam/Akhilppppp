@@ -54,4 +54,16 @@
 </dependency>
 	  
   </dependencies>
-</project>
+	<packaging>war</packaging>
+<build>
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.1</version> <!-- Use the version appropriate for your project -->
+        </plugin>
+        <!-- Other plugins... -->
+    </plugins>
+</build>
+
